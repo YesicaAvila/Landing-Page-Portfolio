@@ -165,18 +165,19 @@ main{
 .travel-im-previaje {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     background-color:#780116ff;
     border-radius: 5px;
     
 }
 .travel-im-previaje img {
-    height: 40px;
-    width: 80px;
+    height: 30px;
+    width: 60px;
 }
 .detalle-previaje p {
     color:#ffedd8ff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
+    gap: 40px
 }
 
