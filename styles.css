@@ -121,7 +121,7 @@ main{
 }
 
 .travel-im {
-    width: 500px;
+    width: 600px;
     background: var(--btn-bg);
     padding: 40px;
     border-radius: 40px;
@@ -138,17 +138,17 @@ main{
     gap: 10px;
 }
 .travel-im-top h3 {
-    font-weight: 650;
+    font-weight: 600;
     font-size: 30px;
     text-overflow: ellipsis;
 }
 .travel-im-top span {
     background-color:#ff9505ff;
     width: 10px;
-    padding: 10px 100px;
-    font-weight: 700;
+    padding: 10px 20px;
+    font-weight: 500;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     border-radius: 10px;
     
 }
@@ -162,7 +162,7 @@ main{
 .travel-im-previaje {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     background-color:#780116ff;
     border-radius: 5px;
     
