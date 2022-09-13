@@ -121,14 +121,14 @@ main{
 }
 
 .travel-im {
-    width: 600px;
+    width: 500px;
     background: var(--btn-bg);
     padding: 40px;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 /* travel-im-top es lo que tiene el texto de laguna verde */
 .travel-im-top {
@@ -138,13 +138,21 @@ main{
     gap: 10px;
 }
 .travel-im-top h3 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
+    gap: 10px;
 }
 .travel-im-top span {
-    background: #ff9505ff;
-    width: 90px;
+    background-color: #ff9505ff;
+    width: 5px 0px;
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 100px;
     
 }
 .travel-im-bottom {
