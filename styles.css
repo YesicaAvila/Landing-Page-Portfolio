@@ -143,13 +143,8 @@ main{
     text-overflow: ellipsis;
 }
 .travel-im-top span {
-    background-color:#ff9505ff;
-    width: 10px;
-    padding: 10px 20px;
-    font-weight: 500;
-    font-size: 30px;
-    text-align: center;
-    border-radius: 10px;
+    background: #ff9505ff;
+    width: 90px;
     
 }
 .travel-im-bottom {
