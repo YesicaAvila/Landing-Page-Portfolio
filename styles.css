@@ -135,7 +135,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 15px;
+    gap: 10px;
 }
 .travel-im-top h3 {
     font-weight: 650;
@@ -144,12 +144,13 @@ main{
 }
 .travel-im-top span {
     background-color:#ff9505ff;
-    width: 40px;
+    width: 10px;
     padding: 10px 100px;
     font-weight: 700;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     border-radius: 10px;
+    
 }
 .travel-im-bottom {
     display: flex;
