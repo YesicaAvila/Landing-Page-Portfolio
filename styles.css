@@ -14,7 +14,7 @@
     --text-white: #ffedd8ff;
 
 }
-
+/* Siempre se colocan los margin 0 padding 0 y box-sizing:border-box */
 * {
     margin: 0;
     padding: 0;
@@ -46,7 +46,7 @@ header {
     align-items: center;
     justify-content: center;
 }
-
+ 
 .navbar {
     gap: 150px;
 }
@@ -179,5 +179,28 @@ main{
     font-size: 15px;
     font-weight: 500;
     gap: 40px
+}
+
+.text-inf {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 250px;
+    background: linear-gradient(to right, #e65c00, #f9d423);
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 20px 20px;
+
+}
+.text-inf h4 {
+    font-size: 40px;
+    width: 60%;
+    min-width: 400px;
+    font-weight: 500;
+}
+.text-inf p{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
