@@ -25,7 +25,7 @@
 }
 
 header {
-    background: var(--primary);
+    background: linear-gradient(to right, #ff4b1f, #ff9068);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -66,7 +66,7 @@ header {
 }
 
 main{
-    background: var(--background);
+    background:  linear-gradient(to right, #22c1c3, #fdbb2d);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +96,7 @@ main{
     width: 80%;
     min-width: 500px;
     font-weight: 800;
-    color: var(--text-home);
+    color: #f2fcfe;
 }
 
 .travel-info p {
@@ -122,7 +122,7 @@ main{
 
 .travel-im {
     width: 500px;
-    background: var(--btn-bg);
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
     padding: 40px;
     border-radius: 40px;
     display: flex;
@@ -166,7 +166,6 @@ main{
     display: flex;
     align-items: center;
     gap: 5px;
-    background-color:#780116ff;
     border-radius: 5px;
     
 }
@@ -175,19 +174,19 @@ main{
     width: 60px;
 }
 .detalle-previaje p {
-    color:#ffedd8ff;
+    color: black;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 700;
     gap: 40px
 }
 
 .text-inf {
     display: flex;
     justify-content: center;
-    width: 800px;
+    width: 850px;
     height: 250px;
     background: linear-gradient(to right, #e65c00, #f9d423);
-    border-radius: 10px;
+    border-radius: 30px;
     flex-direction: column;
     gap: 20px 20px;
 
@@ -200,7 +199,5 @@ main{
 }
 .text-inf p{
     font-size: 20px;
-    align-items: center;
-    justify-content: center;
 }
 
