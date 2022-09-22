@@ -188,7 +188,7 @@ main{
     background: linear-gradient(to right, #e65c00, #f9d423);
     border-radius: 30px;
     flex-direction: column;
-    gap: 20px 20px;
+    padding: 20px
 
 }
 .text-inf h4 {
