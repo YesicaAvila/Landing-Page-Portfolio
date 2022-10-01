@@ -185,7 +185,7 @@ main{
     justify-content: center;
     width: 850px;
     height: 250px;
-    background: linear-gradient(to right, #e65c00, #f9d423);
+    /* background: linear-gradient(to right, #e65c00, #f9d423); */
     border-radius: 30px;
     flex-direction: column;
     padding: 20px
@@ -196,12 +196,15 @@ main{
     width: 60%;
     min-width: 400px;
     font-weight: 500;
+    /* text-align: center; */
 }
 .text-inf p{
     font-size: 20px;
+    max-width: 1200px;
+    text-align: center;
 }
 
-/* Roto */
+
 #masviajes {
     padding: 70px 0;
     max-width: 1200px;
@@ -210,9 +213,6 @@ main{
     align-items: center;
     flex-direction: column;
     gap: 20px;
-   
-  
-    
 }
 #masviajes h3 {
     font-size: 40px;
@@ -362,6 +362,33 @@ main{
 
 .contact1-inf img {
     width: 100px;
+}
+
+.footer-card a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 8px 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer1-img {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+.footer1-img img {
+    width: 200px;
+}
+
+.footer1-img p {
+    font-size: 20px;
+    font-weight: 200;
 }
 
 
