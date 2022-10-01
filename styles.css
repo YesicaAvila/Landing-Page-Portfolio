@@ -201,6 +201,64 @@ main{
     font-size: 20px;
 }
 
+/* Roto */
+#masviajes {
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+   
+  
+    
+}
+#masviajes h3 {
+    font-size: 40px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.masviajes-1 {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 60px;
+}
+
+.masviajes-1 img {
+    width: 400px;
+}
+.masviajes-1-arg [
+    max-width: 1200px;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    gap: 40px;
+]
+
+.masviajes-1-arg h4 {
+    font-size: 30px;
+    font-weight: 300;
+
+}
+.masviajes-1-arg p{
+    background: #e684ae;
+    width: 5px 0px;
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 100px;
+}
+
 #card {
     padding: 70px 0;
     max-width: 1200px;
@@ -208,7 +266,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 
 }
 
@@ -258,7 +316,53 @@ main{
     font-size: 30px;
 }
 .card-benef-info p {
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 20px;
 }
-#
+#contact {
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+#contact h3 {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+#contact p {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+.contact1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.contact1-inf {
+    width: 300px;
+    height: 300px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae);
+    border-radius: 1rem;
+    gap: 10px;
+}
+
+.contact1-inf img {
+    width: 100px;
+}
+
+
+
