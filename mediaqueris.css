@@ -1,7 +1,7 @@
 @media (max-width: 992px) {
-
+    /* navbar */
     .navbar ul {
-        background-color:#e684ae;
+        background-color:darkred; 
         width: 100px;
         height: calc(100vh - 65px);
         position: absolute;
