@@ -1,0 +1,175 @@
+@media (max-width: 992px) {
+
+    .navbar ul {
+        background-color:#e684ae;
+        width: 100px;
+        height: calc(100vh - 65px);
+        position: absolute;
+        top: 65px;
+        /* left: 0; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200px);
+        transition: all 0.4s ease-out;
+    }
+    .navbar i {
+        display: block;
+    }
+    #toggle-menu:checked + .navbar-list {
+        transform: translateX(0%);
+        transition: all 0.4s ease-in;
+    }
+    
+    /* Header */
+    .travel-info {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+
+     }
+
+    .travel-info h1 {
+        
+        width: 100%;
+        max-width: 500px;
+        min-width: none;
+        font-weight: 500;
+        font-size: 30px;
+
+    }
+    .travel-info p {
+        /* max-width: 80px; */
+        font-size: 16px;
+        justify-content: center;
+    }
+    .travel-info a {
+        justify-content: center;
+    }
+
+    /* Catamarca (Header) */
+    .travel-im {
+        display: none;
+        
+    }
+
+    /* quienes somos */
+    .text-inf {
+       display: block;
+       flex-direction: column;
+       align-items: center;
+        
+    }
+    .text-inf h4 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        min-width: unset;
+
+    }
+    .text-inf p {
+        
+        max-width: 70%;
+        font-size: 15px;
+        text-align: center;
+        
+        
+    }
+
+    
+
+
+    /* Beneficios */
+    #card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    #card h4 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        font-weight: 400;
+        min-width: unset;
+        text-align: center;
+    }
+
+    /* Los cuadros de beneficios */
+    
+
+    
+}
+
+@media (max-width: 576px) {
+    /* .navbar ul {
+        background-color:#e684ae;
+        width: 100px;
+        height: calc(100vh - 65px);
+        position: absolute;
+        top: 65px;
+        /* left: 0; */
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200px);
+        transition: all 0.4s ease-out;
+    }
+    .navbar i {
+        display: block;
+    }
+    #toggle-menu:checked + .navbar-list {
+        transform: translateX(0%);
+        transition: all 0.4s ease-in; */
+
+    /* } */
+
+    .travel-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .travel-info h1 {
+        width: 100%;
+        font-size: 50px;
+        min-width: unset;
+        flex-wrap: wrap;
+    }
+
+    .text-inf {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        /* padding-top: 150px; */
+    }
+
+    .text-inf h4 {
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .masviajes-1-arg img {
+        width: 100%;
+        gap: 20px;
+
+    }
+
+    .card-benef-info {
+        width: 100%;
+
+    }
+}
